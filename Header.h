@@ -8,3 +8,8 @@ public:
 	Calculation();
 	int add(int a, int b);
 };
+Calculation::Calculation(){}
+int Calculation::add (int a, int b){
+	return a+b;
+}
+
