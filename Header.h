@@ -7,9 +7,12 @@ class Calculation {
 public:
 	Calculation();
 	int add(int a, int b);
+	int sub(int a, int b);
 };
 Calculation::Calculation(){}
 int Calculation::add (int a, int b){
 	return a+b;
 }
-
+int Calculation::sub(int a, int b){
+	return a-b;
+}
